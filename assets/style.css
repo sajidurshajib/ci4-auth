@@ -1,0 +1,59 @@
+nav{
+    background-color: #484848;
+    color: #fff;
+    padding: 5px 0;
+    overflow: hidden;
+    border-bottom: 5px solid #414141;
+}
+
+.menu{
+    float: right;
+    overflow: hidden;
+    list-style: none;
+    margin-bottom:0;
+    margin-top: 5px;
+}
+.menu li{
+    float: left;
+    margin-left:40px;
+}
+.menu li a{
+    color:#fff;
+    font-size: 16px;
+    line-height:22px;
+}
+.menu li a:hover{
+    color:lightgrey;
+    text-decoration: none;
+}
+
+
+.form-wrapper{
+    margin-top:125px;
+}
+
+.form-wrapper h3{
+    text-align: center;
+}
+
+.ext-link{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.ext-link a{
+    color:cadetblue;
+    text-decoration: none;
+}
+.ext-left{
+    float:left;
+}
+.ext-right{
+    float:left;
+    margin-left: 10px;
+}
+.ext-right::before{
+    content: '|';
+    margin-right: 10px;
+}
